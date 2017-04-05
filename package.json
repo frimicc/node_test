@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "license": "Artistic",
     "scripts": {
-        "start": "node ."
+        "start": "babel-node src"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {
+        "babel-cli": "^6.24.0",
+        "babel-preset-env": "^1.3.2"
+    }
 }
