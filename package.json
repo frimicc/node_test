@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "Artistic",
     "scripts": {
-        "start": "babel-node src",
+        "start": "babel-node src/server",
         "test": "eslint src && flow && jest --coverage",
         "precommit": "yarn test",
         "prepush": "yarn test"
@@ -11,7 +11,10 @@
     "browserslist": [
         "> 1%"
     ],
-    "dependencies": {},
+    "dependencies": {
+        "compression": "^1.6.2",
+        "express": "^4.15.2"
+    },
     "devDependencies": {
         "babel-cli": "^6.24.0",
         "babel-eslint": "^7.2.1",
