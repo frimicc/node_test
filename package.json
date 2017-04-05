@@ -3,11 +3,17 @@
     "version": "1.0.0",
     "license": "Artistic",
     "scripts": {
-        "start": "babel-node src"
+        "start": "babel-node src",
+        "test": "eslint src"
     },
     "dependencies": {},
     "devDependencies": {
         "babel-cli": "^6.24.0",
-        "babel-preset-env": "^1.3.2"
+        "babel-preset-env": "^1.3.2",
+        "eslint": "^3.19.0",
+        "eslint-config-airbnb": "^14.1.0",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
+        "eslint-plugin-react": "^6.9.0"
     }
 }
