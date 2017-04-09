@@ -38,3 +38,7 @@ jspm_packages
 
 # babel compiled output
 /lib/
+
+# webpack compiled output
+/dist/
+
