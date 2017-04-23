@@ -42,3 +42,6 @@ jspm_packages
 # webpack compiled output
 /dist/
 
+# node prod stuff
+/.env
+
